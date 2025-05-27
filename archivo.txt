@@ -1,0 +1,15 @@
+El dilema de Programación 2
+
+Había una vez un estudiante llamado Luis, quien siempre había sido bueno en matemáticas y lógica, pero cuando llegó a Programación 2, las cosas se complicaron más de lo que esperaba.
+
+Al principio, Luis pensaba que sería pan comido: “Si en Programación 1 saqué un 9, en esta me va a ir mejor”, se decía confiado. Pero pronto descubrió que las cosas no eran tan simples. Las funciones recursivas, punteros, estructuras de datos y las complejidades de C++ comenzaron a hacerle una guerra interna.
+
+Cada tarea se convertía en una batalla. Luis pasaba noches enteras frente a la pantalla tratando de entender por qué su programa no compilaba o por qué se caía con errores que ni siquiera lograba descifrar. “¿Por qué no puedo encontrar ese maldito puntero?” murmuraba frustrado.
+
+En los exámenes, la presión lo traicionaba. Olvidaba sintaxis, confundía conceptos y, aunque sabía la teoría, a la hora de aplicarla todo se desmoronaba. Poco a poco, la nota empezó a bajar y el fantasma del “reprobado” se acercaba peligrosamente.
+
+Pero Luis no se rindió. Buscó ayuda en sus compañeros, tutoriales en línea, y hasta en el foro del curso. Empezó a practicar más, a pedir consejos, y a replantear su forma de estudiar. Aunque el semestre terminó con una calificación baja, no fue un fracaso para él, sino el comienzo de un compromiso verdadero con la programación.
+
+Porque más que reprobar Programación 2, Luis aprendió que el camino del programador está lleno de bugs, errores y desafíos que solo se superan con paciencia, persistencia y pasión.
+
+Y así, con ese espíritu renovado, Luis volvió el siguiente semestre decidido a triunfar. (Y volvió a raspar)
