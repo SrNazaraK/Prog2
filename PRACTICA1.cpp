@@ -4,6 +4,20 @@
 #include <locale.h>
 #include <cctype>
 
+//La funcion para que windows permita poner color al texto la saque de Google
+
+#ifdef _WIN32 //verifica si se esta compilando en windows
+#include <windows.h> //para la funcione getconsole y setconsole (interactuar con windows)
+
+void coloresConsola() {
+    HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
+    DWORD modo = 0;
+    GetConsoleMode(hOut, &modo);
+    modo |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
+    SetConsoleMode(hOut, modo);
+}
+
+
 using namespace std;
 
 void minusculas(char* cadena){
