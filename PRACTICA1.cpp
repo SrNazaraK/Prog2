@@ -4,19 +4,10 @@
 #include <locale.h>
 #include <cctype>
 
-//La funcion para que windows permita poner color al texto la saque de Google
-
-#ifdef _WIN32 //verifica si se esta compilando en windows
 #include <windows.h> //para la funcione getconsole y setconsole (interactuar con windows)
 
-void coloresConsola() {
-    HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
-    DWORD modo = 0;
-    GetConsoleMode(hOut, &modo);
-    modo |= ENABLE_VIRTUAL_TERMINAL_PROCESSING;
-    SetConsoleMode(hOut, modo);
-}
-
+//La funcion para el color anterior no funcionaba y no compile antes del commit... 
+//Deje el windows.h porque seguramente sea necesario para la funcion del color
 
 using namespace std;
 
@@ -38,6 +29,8 @@ int main(){
         archivo.close();
     
     string busqueda;
+    string linea;
+	char opcion;
     
 	cout << "Este es un programa que te permite leer un archivo de texto linea por linea." << endl;
     
@@ -49,10 +42,11 @@ int main(){
     		if (busqueda.empty()){
     			cout << "No puede estar vacio. Intentalo de nuevo" << endl;
 			}
-		} while (busqueda.empty());
+		} while (busqueda.empty()); 
 		
-		string linea;
-		int coincidencias = 0;
+		cout << "¿Quieres buscar otra letra o palabra? S/N: " << endl;
+		cin >> opcion;
+		cin.ignore();
 
 	} while (opcion == 'S');
 	
