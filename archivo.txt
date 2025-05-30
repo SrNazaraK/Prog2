@@ -1,15 +1,15 @@
-El dilema de Programación 2
+El dilema de Programacion 2
 
-Había una vez un estudiante llamado Luis, quien siempre había sido bueno en matemáticas y lógica, pero cuando llegó a Programación 2, las cosas se complicaron más de lo que esperaba.
+Habia una vez un estudiante llamado Luis, quien siempre habia sido bueno en matematicas y logica, pero cuando llego a Programacion 2, las cosas se complicaron mas de lo que esperaba.
 
-Al principio, Luis pensaba que sería pan comido: “Si en Programación 1 saqué un 19, en esta me va a ir mejor”, se decía confiado. Pero pronto descubrió que las cosas no eran tan simples. Las funciones recursivas, punteros, estructuras de datos y las complejidades de C++ comenzaron a hacerle una guerra interna.
+Al principio, Luis pensaba que seria pan comido: “Si en Programacion 1 saque un 19, en esta me va a ir mejor”, se decia confiado. Pero pronto descubrio que las cosas no eran tan simples. Las funciones recursivas, punteros, estructuras de datos y las complejidades de C++ comenzaron a hacerle una guerra interna.
 
-Cada tarea se convertía en una batalla. Luis pasaba noches enteras frente a la pantalla tratando de entender por qué su programa no compilaba o por qué se caía con errores que ni siquiera lograba descifrar. “¿Por qué no puedo encontrar ese maldito puntero?” murmuraba frustrado.
+Cada tarea se convertia en una batalla. Luis pasaba noches enteras frente a la pantalla tratando de entender por que su programa no compilaba o por que se caia con errores que ni siquiera lograba descifrar. “¿Por que no puedo encontrar ese maldito puntero?” murmuraba frustrado.
 
-En los exámenes, la presión lo traicionaba. Olvidaba sintaxis, confundía conceptos y, aunque sabía la teoría, a la hora de aplicarla todo se desmoronaba. Poco a poco, la nota empezó a bajar y el fantasma del “reprobado” se acercaba peligrosamente.
+En los examenes, la presion lo traicionaba. Olvidaba sintaxis, confundia conceptos y, aunque sabia la teoria, a la hora de aplicarla todo se desmoronaba. Poco a poco, la nota empezo a bajar y el fantasma del “reprobado” se acercaba peligrosamente.
 
-Pero Luis no se rindió. Buscó ayuda en sus compañeros, tutoriales en línea, y hasta en el foro del curso. Empezó a practicar más, a pedir consejos, y a replantear su forma de estudiar. Aunque el semestre terminó con una calificación baja, no fue un fracaso para él, sino el comienzo de un compromiso verdadero con la programación.
+Pero Luis no se rindio. Busco ayuda en sus companeros, tutoriales en linea, y hasta en el foro del curso. Empezo a practicar mas, a pedir consejos, y a replantear su forma de estudiar. Aunque el semestre termino con una calificacion baja, no fue un fracaso para el, sino el comienzo de un compromiso verdadero con la programacion.
 
-Porque más que reprobar Programación 2, Luis aprendió que el camino del programador está lleno de bugs, errores y desafíos que solo se superan con paciencia, persistencia y pasión.
+Porque mas que reprobar Programacion 2, Luis aprendio que el camino del programador esta lleno de bugs, errores y desafios que solo se superan con paciencia, persistencia y pasion.
 
-Y así, con ese espíritu renovado, Luis volvió el siguiente trimestre decidido a triunfar.
+Y asi, con ese espiritu renovado, Luis volvio el siguiente trimestre decidido a triunfar.
