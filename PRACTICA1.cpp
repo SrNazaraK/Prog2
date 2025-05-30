@@ -22,7 +22,6 @@ int main(){
     string busqueda;
     string linea;
 	char opcion;
-	int coincidencias;
     
 	cout << "Este es un programa que te permite leer un archivo de texto linea por linea." << endl;
     
@@ -41,6 +40,39 @@ int main(){
     			cout << "No puede estar vacio. Intentalo de nuevo" << endl;
 			}
 		} while (busqueda.empty()); 
+		
+		char* busquedaC = new char[busqueda.size() + 1];
+        strcpy(busquedaC, busqueda.c_str());
+        minusculas(busquedaC);
+        
+        int coincidencias = 0;
+        
+        cout << "Resultados:" << endl;
+        
+         while (getline(archivo, linea)){
+            char* lineaC = new char[linea.size() + 1];
+            strcpy(lineaC, linea.c_str());
+
+            char* lineaMin = new char[linea.size() + 1];
+            strcpy(lineaMin, linea.c_str());
+            minusculas(lineaMin);
+
+            string resultado;
+            size_t prev = 0;
+            size_t pos;
+            
+             while ((pos = string(lineaMin).find(busquedaC, prev)) != string::npos) {
+                resultado += linea.substr(prev, pos - prev);
+                resultado += verde + linea.substr(pos, strlen(busquedaC)) + reset;
+
+                prev = pos + strlen(busquedaC);
+                coincidencias++;
+            }
+            
+             resultado += linea.substr(prev);
+
+            cout << resultado << endl;
+        }
         
         archivo.close();
         
